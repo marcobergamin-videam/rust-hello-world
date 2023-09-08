@@ -8,10 +8,10 @@ inherit cargo
 # how to get rust-hello-world could be as easy as but default to a git checkout:
 # SRC_URI += "crate://crates.io/rust-hello-world/0.1.0"
 SRC_URI += "git://git@github.com/marcobergamin-videam/rust-hello-world.git;protocol=ssh;nobranch=1;branch=main"
-SRCREV = "95ef98fc60661e6a50e559ca3ba169c877020a0e"
+SRCREV = "8568fed8a01bf03623edac4207442769bf2f693e"
 S = "${WORKDIR}/git"
 CARGO_SRC_DIR = ""
-PV:append = ".AUTOINC+95ef98fc60"
+PV:append = ".AUTOINC+8568fed8a0"
 
 # please note if you have entries that do not begin with crate://
 # you must change them to how that package can be fetched
