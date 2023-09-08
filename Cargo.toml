@@ -8,4 +8,4 @@ homepage = ""
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-random = "0.14.0"
+random = "0.13.2"
